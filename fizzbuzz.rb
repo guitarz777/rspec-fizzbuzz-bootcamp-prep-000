@@ -9,6 +9,8 @@ def fizzbuzz(number)
   end
   elsif number % 5 == 0 
     return 'buzz'
+  end
   else
     return nil
+  end
 end
